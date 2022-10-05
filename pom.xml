@@ -52,6 +52,15 @@
 							<format>html</format>
 						</formats>
 					</coverage>
+					<cloudHubDeployment>
+					    <uri>https://anypoint.mulesoft.com</uri>            
+					    <muleVersion>4.3.0</muleVersion>                    
+					    <username>lorenzoneri</username>           
+					    <password>Bmn8v8f4d2mdw!</password>           
+					    <environment>SANDBOX</environment> 
+					    <applicationName>lorenzo_neri_c4l_test</applicationName>  
+					    <workerType>Micro</workerType>                      
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -105,6 +114,11 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
+		<repository>
+		    <id>mulesoft-public</id>
+		    <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+		    <layout>default</layout>
+		</repository> 
 	</repositories>
 
 	<pluginRepositories>
