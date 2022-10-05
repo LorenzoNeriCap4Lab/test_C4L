@@ -55,10 +55,10 @@
 					<cloudHubDeployment>
 					    <uri>https://anypoint.mulesoft.com</uri>            
 					    <muleVersion>4.3.0</muleVersion>                    
-					    <username>lorenzoneri</username>           
-					    <password>Bmn8v8f4d2mdw!</password>           
+					    <username>your_anypoint_username</username>           
+					    <password>your_anypoint_password</password>           
 					    <environment>Sandbox</environment> 
-					    <applicationName>lorenzo_neri_c4l_test</applicationName>  
+					    <applicationName>eapi-test-api</applicationName>  
 					    <workerType>Micro</workerType>                      
 					</cloudHubDeployment>
 				</configuration>
