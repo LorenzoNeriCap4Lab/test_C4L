@@ -8,9 +8,8 @@ trigger:
    - deployment
  paths:
    exclude:
-  - azure-pipelines.yml
-  - pom.xml
-
+   - azure-pipelines.yml
+   - pom.xml
 
 pool:
   vmImage: ubuntu-latest
