@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="eapi-test-api-test-suite.xml" >
+		<munit:parameterizations >
+			<munit:parameterization name="development" >
+				<munit:parameters >
+					<munit:parameter propertyName="http.listener.host" value="0.0.0.0" />
+					<munit:parameter propertyName="http.listener.port" value="8081" />
+					<munit:parameter propertyName="nameparameter" value="anyvalue" />
+				</munit:parameters>
+			</munit:parameterization>
+		</munit:parameterizations>
+	</munit:config>
+	<munit:test name="eapi-test-api-test-suite-eapi-test-apiFlowTest" doc:id="500468cb-5477-459c-908c-16eb8d801869" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to eapi-test-apiFlow" doc:id="f1b82537-82a9-4f6f-afd1-24b8909b12f2" name="eapi-test-apiFlow"/>
+		</munit:execution>
+	</munit:test>
+
+</mule>
