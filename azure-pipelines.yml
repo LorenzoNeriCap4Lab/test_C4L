@@ -5,7 +5,8 @@
 
 trigger:
  branches:
-   - deployment
+  include:
+    - deployment
  paths:
    exclude:
    - azure-pipelines.yml
