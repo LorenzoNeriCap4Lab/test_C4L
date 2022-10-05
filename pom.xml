@@ -57,7 +57,7 @@
 					    <muleVersion>4.3.0</muleVersion>                    
 					    <username>lorenzoneri</username>           
 					    <password>Bmn8v8f4d2mdw!</password>           
-					    <environment>SANDBOX</environment> 
+					    <environment>Sandbox</environment> 
 					    <applicationName>lorenzo_neri_c4l_test</applicationName>  
 					    <workerType>Micro</workerType>                      
 					</cloudHubDeployment>
