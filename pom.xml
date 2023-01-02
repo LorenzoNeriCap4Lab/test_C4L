@@ -61,10 +61,7 @@
 					    <applicationName>eapi-test-api</applicationName>  
 					    <workerType>Micro</workerType>                      
 					</cloudHubDeployment>
-<<<<<<< Updated upstream
-=======
-				</configuration>
->>>>>>> Stashed changes
+
 				</configuration>
 			</plugin>
 		</plugins>
